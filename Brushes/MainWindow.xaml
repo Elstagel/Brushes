@@ -1,0 +1,99 @@
+﻿<Window x:Class="Brushes.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Brushes"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.3*"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0">
+                <Button Height="20" Margin="5" Foreground="White">
+                    <Button.Background>
+                        <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,0.5" >
+                            <GradientStop Color="#FF0C159E"/>
+                            <GradientStop Color="#FF137519" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                    Главная
+                </Button>
+                <Button Height="20" Margin="5" Foreground="White">
+                    <Button.Background>
+                        <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,0.5" >
+                            <GradientStop Color="#FF0C159E"/>
+                            <GradientStop Color="#FF137519" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                    Солнечная система
+                </Button>
+                <Button Height="20" Margin="5" Foreground="White">
+                    <Button.Background>
+                        <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,0.5" >
+                            <GradientStop Color="#FF0C159E"/>
+                            <GradientStop Color="#FF137519" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                    Планеты
+                </Button>
+                <Button Height="20" Margin="5" Foreground="White">
+                    <Button.Background>
+                        <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,0.5" >
+                            <GradientStop Color="#FF0C159E"/>
+                            <GradientStop Color="#FF137519" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                    История солнечной системы
+                </Button>
+                <Button Height="20" Margin="5" Foreground="White">
+                    <Button.Background>
+                        <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,0.5" >
+                            <GradientStop Color="#FF0C159E"/>
+                            <GradientStop Color="#FF137519" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                    Новости
+                </Button>
+                <Button Height="20" Margin="5" Foreground="White">
+                    <Button.Background>
+                        <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,0.5" >
+                            <GradientStop Color="#FF0C159E"/>
+                            <GradientStop Color="#FF137519" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Button.Background>
+                    Контакты
+                </Button>
+            </StackPanel>
+            <StackPanel Grid.Column="1" Margin="7">
+                <TextBlock TextWrapping="Wrap" Foreground="White">
+                    <TextBlock.Background>
+                        <ImageBrush Stretch="UniformToFill" ImageSource="/img/photodune-6389779-mercury-m.jpg" AlignmentX="Center"/>
+                    </TextBlock.Background>
+                    Мерку́рий — наименьшая планета Солнечной системы и самая близкая к Солнцу. 
+                    Названа в честь древнеримского бога торговли — быстрого Меркурия, поскольку она движется по небу быстрее других планет.
+                    Её период обращения вокруг Солнца составляет всего 87,97 земных суток — самый короткий среди всех планет Солнечной системы.
+                    <LineBreak/><LineBreak/>
+                    Видимое расстояние Меркурия от Солнца, если смотреть с Земли, никогда не превышает 28°. Эта близость к Солнцу означает,
+                    что планету можно увидеть только в течение небольшого времени после захода или до восхода солнца, обычно в сумерках.
+                    В телескоп у Меркурия можно увидеть фазы, изменяющиеся от тонкого серпа до почти полного диска, как у Венеры и Луны,
+                    а иногда он проходит по диску Солнца. Период изменения фаз Меркурия равен синодическому периоду его обращения — примерно 116 дней.
+                    <LineBreak/><LineBreak/>
+                    Ось Меркурия имеет наименьший наклон из всех планет Солнечной системы (около 1/30 градуса). 
+                    Однако эксцентриситет орбиты у него максимальный среди них, и поэтому в перигелии расстояние
+                    Меркурия от Солнца составляет всего около двух третей (66 %) от его расстояния в афелии.
+                    Поверхность Меркурия покрыта ударными кратерами и внешне похожа на лунную, что указывает на отсутствие внутренней 
+                    геологической активности в последние миллиарды лет. Поскольку атмосферы у Меркурия почти нет, температура его поверхности меняется сильнее,
+                    чем на любой другой планете Солнечной системы: от 100 К (−173 °C) ночью до 700 К (+427 °C) днём в экваториальных регионах[12]. 
+                    Полярные области постоянно охлаждены ниже 180 К (−93 °С). Известных природных спутников у планеты нет.
+
+                </TextBlock>
+            </StackPanel>
+        </Grid>
+        
+
+    </Grid>
+</Window>

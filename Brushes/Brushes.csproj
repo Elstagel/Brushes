@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="601e66b617c8a69ada1a112857c22166.jpeg" />
+    <None Remove="img\photodune-6389779-mercury-m.jpg" />
+    <None Remove="photodune-6389779-mercury-m.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="601e66b617c8a69ada1a112857c22166.jpeg" />
+    <Resource Include="img\photodune-6389779-mercury-m.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="photodune-6389779-mercury-m.jpg" />
+  </ItemGroup>
+
+</Project>
